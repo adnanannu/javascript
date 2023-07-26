@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="myImage" onclick="changeImage()" src="pngwingbulb.com (2).png" height="300px">
+    <p> on/off .</p>
+    <script>
+        function changeImage()
+        {
+            var image=document.getElementById("myImage");
+            if (image.src.match("bulb off")){
+             image.src="pngwing.com (3).png"
+            }
+            else
+            {
+                image.src="pngwing.com (3).png" 
+            }
+        }
+    </script>
+    
+</body>
+</html>
